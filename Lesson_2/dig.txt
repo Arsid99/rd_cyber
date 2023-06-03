@@ -1,0 +1,1058 @@
+
+; <<>> DiG 9.18.12-1-Debian <<>> fossil.com
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 8042
+;; flags: qr rd ra; QUERY: 1, ANSWER: 4, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;fossil.com.			IN	A
+
+;; ANSWER SECTION:
+fossil.com.		1800	IN	A	96.45.82.85
+fossil.com.		1800	IN	A	96.45.82.245
+fossil.com.		1800	IN	A	96.45.83.82
+fossil.com.		1800	IN	A	96.45.83.218
+
+;; Query time: 40 msec
+;; SERVER: 192.168.88.1#53(192.168.88.1) (UDP)
+;; WHEN: Sat Jun 03 05:15:34 EDT 2023
+;; MSG SIZE  rcvd: 92
+
+
+; <<>> DiG 9.18.12-1-Debian <<>> shard.wwwfeo.fossil.com.edgekey.net
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 22011
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;shard.wwwfeo.fossil.com.edgekey.net. IN	A
+
+;; Query time: 184 msec
+;; SERVER: 192.168.88.1#53(192.168.88.1) (UDP)
+;; WHEN: Sat Jun 03 05:15:34 EDT 2023
+;; MSG SIZE  rcvd: 53
+
+
+; <<>> DiG 9.18.12-1-Debian <<>> m.fossil.co.jp
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 2185
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;m.fossil.co.jp.			IN	A
+
+;; Query time: 640 msec
+;; SERVER: 192.168.88.1#53(192.168.88.1) (UDP)
+;; WHEN: Sat Jun 03 05:15:34 EDT 2023
+;; MSG SIZE  rcvd: 32
+
+
+; <<>> DiG 9.18.12-1-Debian <<>> m.fossil.co.uk
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 13154
+;; flags: qr rd ra; QUERY: 1, ANSWER: 3, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;m.fossil.co.uk.			IN	A
+
+;; ANSWER SECTION:
+m.fossil.co.uk.		1218	IN	CNAME	m.fossil.com.edgekey.net.
+m.fossil.com.edgekey.net. 14	IN	CNAME	e6253.b.akamaiedge.net.
+e6253.b.akamaiedge.net.	20	IN	A	104.81.124.187
+
+;; Query time: 108 msec
+;; SERVER: 192.168.88.1#53(192.168.88.1) (UDP)
+;; WHEN: Sat Jun 03 05:15:35 EDT 2023
+;; MSG SIZE  rcvd: 119
+
+
+; <<>> DiG 9.18.12-1-Debian <<>> m.fossil.de
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 65076
+;; flags: qr rd ra; QUERY: 1, ANSWER: 3, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;m.fossil.de.			IN	A
+
+;; ANSWER SECTION:
+m.fossil.de.		1800	IN	CNAME	m.fossil.com.edgekey.net.
+m.fossil.com.edgekey.net. 14	IN	CNAME	e6253.b.akamaiedge.net.
+e6253.b.akamaiedge.net.	20	IN	A	104.81.124.187
+
+;; Query time: 68 msec
+;; SERVER: 192.168.88.1#53(192.168.88.1) (UDP)
+;; WHEN: Sat Jun 03 05:15:35 EDT 2023
+;; MSG SIZE  rcvd: 116
+
+
+; <<>> DiG 9.18.12-1-Debian <<>> store.emporioarmaniwatches.com
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 2071
+;; flags: qr rd ra; QUERY: 1, ANSWER: 3, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;store.emporioarmaniwatches.com.	IN	A
+
+;; ANSWER SECTION:
+store.emporioarmaniwatches.com.	600 IN	CNAME	ev.www.fossilgroup.com.edgekey.net.
+ev.www.fossilgroup.com.edgekey.net. 3000 IN CNAME e7149.dsca.akamaiedge.net.
+e7149.dsca.akamaiedge.net. 20	IN	A	104.81.219.20
+
+;; Query time: 312 msec
+;; SERVER: 192.168.88.1#53(192.168.88.1) (UDP)
+;; WHEN: Sat Jun 03 05:15:35 EDT 2023
+;; MSG SIZE  rcvd: 148
+
+
+; <<>> DiG 9.18.12-1-Debian <<>> www.fossil.ch
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 34555
+;; flags: qr rd ra; QUERY: 1, ANSWER: 3, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;www.fossil.ch.			IN	A
+
+;; ANSWER SECTION:
+www.fossil.ch.		1800	IN	CNAME	ev.www.fossil.com.edgekey.net.
+ev.www.fossil.com.edgekey.net. 2417 IN	CNAME	e6253.dsca.akamaiedge.net.
+e6253.dsca.akamaiedge.net. 20	IN	A	104.81.217.50
+
+;; Query time: 148 msec
+;; SERVER: 192.168.88.1#53(192.168.88.1) (UDP)
+;; WHEN: Sat Jun 03 05:15:35 EDT 2023
+;; MSG SIZE  rcvd: 126
+
+
+; <<>> DiG 9.18.12-1-Debian <<>> www.fossil.co.jp
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 2468
+;; flags: qr rd ra; QUERY: 1, ANSWER: 3, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;www.fossil.co.jp.		IN	A
+
+;; ANSWER SECTION:
+www.fossil.co.jp.	1800	IN	CNAME	ev.www.fossil.com.edgekey.net.
+ev.www.fossil.com.edgekey.net. 2417 IN	CNAME	e6253.dsca.akamaiedge.net.
+e6253.dsca.akamaiedge.net. 20	IN	A	104.81.217.50
+
+;; Query time: 40 msec
+;; SERVER: 192.168.88.1#53(192.168.88.1) (UDP)
+;; WHEN: Sat Jun 03 05:15:35 EDT 2023
+;; MSG SIZE  rcvd: 129
+
+
+; <<>> DiG 9.18.12-1-Debian <<>> www.fossil.co.kr
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 40875
+;; flags: qr rd ra; QUERY: 1, ANSWER: 4, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;www.fossil.co.kr.		IN	A
+
+;; ANSWER SECTION:
+www.fossil.co.kr.	1800	IN	A	96.45.82.85
+www.fossil.co.kr.	1800	IN	A	96.45.83.82
+www.fossil.co.kr.	1800	IN	A	96.45.83.218
+www.fossil.co.kr.	1800	IN	A	96.45.82.245
+
+;; Query time: 348 msec
+;; SERVER: 192.168.88.1#53(192.168.88.1) (UDP)
+;; WHEN: Sat Jun 03 05:15:36 EDT 2023
+;; MSG SIZE  rcvd: 98
+
+
+; <<>> DiG 9.18.12-1-Debian <<>> www.fossil.co.uk
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 6295
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;www.fossil.co.uk.		IN	A
+
+;; Query time: 36 msec
+;; SERVER: 192.168.88.1#53(192.168.88.1) (UDP)
+;; WHEN: Sat Jun 03 05:15:36 EDT 2023
+;; MSG SIZE  rcvd: 34
+
+
+; <<>> DiG 9.18.12-1-Debian <<>> www.fossil.co.za
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 44513
+;; flags: qr rd ra; QUERY: 1, ANSWER: 3, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;www.fossil.co.za.		IN	A
+
+;; ANSWER SECTION:
+www.fossil.co.za.	3000	IN	CNAME	ev.www.fossil.com.edgekey.net.
+ev.www.fossil.com.edgekey.net. 2416 IN	CNAME	e6253.dsca.akamaiedge.net.
+e6253.dsca.akamaiedge.net. 19	IN	A	104.81.217.50
+
+;; Query time: 264 msec
+;; SERVER: 192.168.88.1#53(192.168.88.1) (UDP)
+;; WHEN: Sat Jun 03 05:15:36 EDT 2023
+;; MSG SIZE  rcvd: 129
+
+
+; <<>> DiG 9.18.12-1-Debian <<>> www.fossil.com.au
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 49868
+;; flags: qr rd ra; QUERY: 1, ANSWER: 3, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;www.fossil.com.au.		IN	A
+
+;; ANSWER SECTION:
+www.fossil.com.au.	1800	IN	CNAME	ev.www.fossil.com.edgekey.net.
+ev.www.fossil.com.edgekey.net. 2416 IN	CNAME	e6253.dsca.akamaiedge.net.
+e6253.dsca.akamaiedge.net. 19	IN	A	104.81.217.50
+
+;; Query time: 184 msec
+;; SERVER: 192.168.88.1#53(192.168.88.1) (UDP)
+;; WHEN: Sat Jun 03 05:15:36 EDT 2023
+;; MSG SIZE  rcvd: 130
+
+
+; <<>> DiG 9.18.12-1-Debian <<>> www.fossil.de
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 22666
+;; flags: qr rd ra; QUERY: 1, ANSWER: 3, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;www.fossil.de.			IN	A
+
+;; ANSWER SECTION:
+www.fossil.de.		1800	IN	CNAME	ev.www.fossil.com.edgekey.net.
+ev.www.fossil.com.edgekey.net. 2416 IN	CNAME	e6253.dsca.akamaiedge.net.
+e6253.dsca.akamaiedge.net. 19	IN	A	104.81.217.50
+
+;; Query time: 36 msec
+;; SERVER: 192.168.88.1#53(192.168.88.1) (UDP)
+;; WHEN: Sat Jun 03 05:15:36 EDT 2023
+;; MSG SIZE  rcvd: 126
+
+
+; <<>> DiG 9.18.12-1-Debian <<>> www.fossil.es
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 20871
+;; flags: qr rd ra; QUERY: 1, ANSWER: 3, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;www.fossil.es.			IN	A
+
+;; ANSWER SECTION:
+www.fossil.es.		1800	IN	CNAME	ev.www.fossil.com.edgekey.net.
+ev.www.fossil.com.edgekey.net. 2416 IN	CNAME	e6253.dsca.akamaiedge.net.
+e6253.dsca.akamaiedge.net. 19	IN	A	104.81.217.50
+
+;; Query time: 116 msec
+;; SERVER: 192.168.88.1#53(192.168.88.1) (UDP)
+;; WHEN: Sat Jun 03 05:15:36 EDT 2023
+;; MSG SIZE  rcvd: 126
+
+
+; <<>> DiG 9.18.12-1-Debian <<>> www.fossil.fr
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 11207
+;; flags: qr rd ra; QUERY: 1, ANSWER: 3, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;www.fossil.fr.			IN	A
+
+;; ANSWER SECTION:
+www.fossil.fr.		3000	IN	CNAME	ev.www.fossil.com.edgekey.net.
+ev.www.fossil.com.edgekey.net. 2416 IN	CNAME	e6253.dsca.akamaiedge.net.
+e6253.dsca.akamaiedge.net. 19	IN	A	104.81.217.50
+
+;; Query time: 52 msec
+;; SERVER: 192.168.88.1#53(192.168.88.1) (UDP)
+;; WHEN: Sat Jun 03 05:15:36 EDT 2023
+;; MSG SIZE  rcvd: 126
+
+
+; <<>> DiG 9.18.12-1-Debian <<>> www.fossil.hk
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 44128
+;; flags: qr rd ra; QUERY: 1, ANSWER: 4, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;www.fossil.hk.			IN	A
+
+;; ANSWER SECTION:
+www.fossil.hk.		1800	IN	A	96.45.82.85
+www.fossil.hk.		1800	IN	A	96.45.83.218
+www.fossil.hk.		1800	IN	A	96.45.83.82
+www.fossil.hk.		1800	IN	A	96.45.82.245
+
+;; Query time: 72 msec
+;; SERVER: 192.168.88.1#53(192.168.88.1) (UDP)
+;; WHEN: Sat Jun 03 05:15:37 EDT 2023
+;; MSG SIZE  rcvd: 95
+
+
+; <<>> DiG 9.18.12-1-Debian <<>> www.fossil.in
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 9460
+;; flags: qr rd ra; QUERY: 1, ANSWER: 4, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;www.fossil.in.			IN	A
+
+;; ANSWER SECTION:
+www.fossil.in.		1800	IN	A	96.45.82.85
+www.fossil.in.		1800	IN	A	96.45.83.82
+www.fossil.in.		1800	IN	A	96.45.82.245
+www.fossil.in.		1800	IN	A	96.45.83.218
+
+;; Query time: 84 msec
+;; SERVER: 192.168.88.1#53(192.168.88.1) (UDP)
+;; WHEN: Sat Jun 03 05:15:37 EDT 2023
+;; MSG SIZE  rcvd: 95
+
+
+; <<>> DiG 9.18.12-1-Debian <<>> www.fossil.it
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 40591
+;; flags: qr rd ra; QUERY: 1, ANSWER: 3, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;www.fossil.it.			IN	A
+
+;; ANSWER SECTION:
+www.fossil.it.		3000	IN	CNAME	ev.www.fossil.com.edgekey.net.
+ev.www.fossil.com.edgekey.net. 2415 IN	CNAME	e6253.dsca.akamaiedge.net.
+e6253.dsca.akamaiedge.net. 18	IN	A	104.81.217.50
+
+;; Query time: 88 msec
+;; SERVER: 192.168.88.1#53(192.168.88.1) (UDP)
+;; WHEN: Sat Jun 03 05:15:37 EDT 2023
+;; MSG SIZE  rcvd: 126
+
+
+; <<>> DiG 9.18.12-1-Debian <<>> www.fossil.nl
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 35764
+;; flags: qr rd ra; QUERY: 1, ANSWER: 3, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;www.fossil.nl.			IN	A
+
+;; ANSWER SECTION:
+www.fossil.nl.		3000	IN	CNAME	ev.www.fossil.com.edgekey.net.
+ev.www.fossil.com.edgekey.net. 2415 IN	CNAME	e6253.dsca.akamaiedge.net.
+e6253.dsca.akamaiedge.net. 18	IN	A	104.81.217.50
+
+;; Query time: 72 msec
+;; SERVER: 192.168.88.1#53(192.168.88.1) (UDP)
+;; WHEN: Sat Jun 03 05:15:37 EDT 2023
+;; MSG SIZE  rcvd: 126
+
+
+; <<>> DiG 9.18.12-1-Debian <<>> www.fossilaustralia.com.au
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 52099
+;; flags: qr rd ra; QUERY: 1, ANSWER: 3, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;www.fossilaustralia.com.au.	IN	A
+
+;; ANSWER SECTION:
+www.fossilaustralia.com.au. 3000 IN	CNAME	www.fossilaustralia.com.au.edgekey.net.
+www.fossilaustralia.com.au.edgekey.net.	3000 IN	CNAME e19.b.akamaiedge.net.
+e19.b.akamaiedge.net.	20	IN	A	23.45.136.5
+
+;; Query time: 332 msec
+;; SERVER: 192.168.88.1#53(192.168.88.1) (UDP)
+;; WHEN: Sat Jun 03 05:15:37 EDT 2023
+;; MSG SIZE  rcvd: 143
+
+
+; <<>> DiG 9.18.12-1-Debian <<>> www.fossilcanada.ca
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 8561
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;www.fossilcanada.ca.		IN	A
+
+;; Query time: 76 msec
+;; SERVER: 192.168.88.1#53(192.168.88.1) (UDP)
+;; WHEN: Sat Jun 03 05:15:37 EDT 2023
+;; MSG SIZE  rcvd: 37
+
+
+; <<>> DiG 9.18.12-1-Debian <<>> www.fossilchina.cn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 27445
+;; flags: qr rd ra; QUERY: 1, ANSWER: 4, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;www.fossilchina.cn.		IN	A
+
+;; ANSWER SECTION:
+www.fossilchina.cn.	1800	IN	A	96.45.83.218
+www.fossilchina.cn.	1800	IN	A	96.45.83.82
+www.fossilchina.cn.	1800	IN	A	96.45.82.85
+www.fossilchina.cn.	1800	IN	A	96.45.82.245
+
+;; Query time: 88 msec
+;; SERVER: 192.168.88.1#53(192.168.88.1) (UDP)
+;; WHEN: Sat Jun 03 05:15:38 EDT 2023
+;; MSG SIZE  rcvd: 100
+
+
+; <<>> DiG 9.18.12-1-Debian <<>> www.fossilglobal.com
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 29131
+;; flags: qr rd ra; QUERY: 1, ANSWER: 3, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;www.fossilglobal.com.		IN	A
+
+;; ANSWER SECTION:
+www.fossilglobal.com.	3000	IN	CNAME	ev.www.fossil.com.edgekey.net.
+ev.www.fossil.com.edgekey.net. 2414 IN	CNAME	e6253.dsca.akamaiedge.net.
+e6253.dsca.akamaiedge.net. 17	IN	A	104.81.217.50
+
+;; Query time: 88 msec
+;; SERVER: 192.168.88.1#53(192.168.88.1) (UDP)
+;; WHEN: Sat Jun 03 05:15:38 EDT 2023
+;; MSG SIZE  rcvd: 133
+
+
+; <<>> DiG 9.18.12-1-Debian <<>> www.fossilnorway.no
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 62386
+;; flags: qr rd ra; QUERY: 1, ANSWER: 3, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;www.fossilnorway.no.		IN	A
+
+;; ANSWER SECTION:
+www.fossilnorway.no.	3000	IN	CNAME	ev.www.fossil.com.edgekey.net.
+ev.www.fossil.com.edgekey.net. 2414 IN	CNAME	e6253.dsca.akamaiedge.net.
+e6253.dsca.akamaiedge.net. 17	IN	A	104.81.217.50
+
+;; Query time: 100 msec
+;; SERVER: 192.168.88.1#53(192.168.88.1) (UDP)
+;; WHEN: Sat Jun 03 05:15:38 EDT 2023
+;; MSG SIZE  rcvd: 132
+
+
+; <<>> DiG 9.18.12-1-Debian <<>> www.fossilsingapore.com.sg
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 14766
+;; flags: qr rd ra; QUERY: 1, ANSWER: 4, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;www.fossilsingapore.com.sg.	IN	A
+
+;; ANSWER SECTION:
+www.fossilsingapore.com.sg. 1800 IN	A	96.45.82.245
+www.fossilsingapore.com.sg. 1800 IN	A	96.45.83.82
+www.fossilsingapore.com.sg. 1800 IN	A	96.45.83.218
+www.fossilsingapore.com.sg. 1800 IN	A	96.45.82.85
+
+;; Query time: 120 msec
+;; SERVER: 192.168.88.1#53(192.168.88.1) (UDP)
+;; WHEN: Sat Jun 03 05:15:38 EDT 2023
+;; MSG SIZE  rcvd: 108
+
+
+; <<>> DiG 9.18.12-1-Debian <<>> www.fossilsweden.se
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 38260
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;www.fossilsweden.se.		IN	A
+
+;; Query time: 76 msec
+;; SERVER: 192.168.88.1#53(192.168.88.1) (UDP)
+;; WHEN: Sat Jun 03 05:15:38 EDT 2023
+;; MSG SIZE  rcvd: 37
+
+
+; <<>> DiG 9.18.12-1-Debian <<>> michele.com
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 58134
+;; flags: qr rd ra; QUERY: 1, ANSWER: 4, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;michele.com.			IN	A
+
+;; ANSWER SECTION:
+michele.com.		1800	IN	A	96.45.82.245
+michele.com.		1800	IN	A	96.45.83.82
+michele.com.		1800	IN	A	96.45.83.218
+michele.com.		1800	IN	A	96.45.82.85
+
+;; Query time: 76 msec
+;; SERVER: 192.168.88.1#53(192.168.88.1) (UDP)
+;; WHEN: Sat Jun 03 05:15:38 EDT 2023
+;; MSG SIZE  rcvd: 93
+
+
+; <<>> DiG 9.18.12-1-Debian <<>> misfit.com
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 55682
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;misfit.com.			IN	A
+
+;; ANSWER SECTION:
+misfit.com.		20	IN	A	104.94.100.171
+misfit.com.		20	IN	A	104.94.100.163
+
+;; Query time: 112 msec
+;; SERVER: 192.168.88.1#53(192.168.88.1) (UDP)
+;; WHEN: Sat Jun 03 05:15:38 EDT 2023
+;; MSG SIZE  rcvd: 60
+
+
+; <<>> DiG 9.18.12-1-Debian <<>> skagen.com
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 20259
+;; flags: qr rd ra; QUERY: 1, ANSWER: 4, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;skagen.com.			IN	A
+
+;; ANSWER SECTION:
+skagen.com.		1800	IN	A	96.45.83.82
+skagen.com.		1800	IN	A	96.45.82.245
+skagen.com.		1800	IN	A	96.45.83.218
+skagen.com.		1800	IN	A	96.45.82.85
+
+;; Query time: 76 msec
+;; SERVER: 192.168.88.1#53(192.168.88.1) (UDP)
+;; WHEN: Sat Jun 03 05:15:38 EDT 2023
+;; MSG SIZE  rcvd: 92
+
+
+; <<>> DiG 9.18.12-1-Debian <<>> www.skagenbrand.de
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 16586
+;; flags: qr rd ra; QUERY: 1, ANSWER: 3, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;www.skagenbrand.de.		IN	A
+
+;; ANSWER SECTION:
+www.skagenbrand.de.	2999	IN	CNAME	www.skagen.com.edgekey.net.
+www.skagen.com.edgekey.net. 3000 IN	CNAME	e7149.dscb.akamaiedge.net.
+e7149.dscb.akamaiedge.net. 20	IN	A	104.81.108.187
+
+;; Query time: 264 msec
+;; SERVER: 192.168.88.1#53(192.168.88.1) (UDP)
+;; WHEN: Sat Jun 03 05:15:39 EDT 2023
+;; MSG SIZE  rcvd: 128
+
+
+; <<>> DiG 9.18.12-1-Debian <<>> www.skagenglobal.com
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 4768
+;; flags: qr rd ra; QUERY: 1, ANSWER: 3, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;www.skagenglobal.com.		IN	A
+
+;; ANSWER SECTION:
+www.skagenglobal.com.	3000	IN	CNAME	www.skagen.com.edgekey.net.
+www.skagen.com.edgekey.net. 3000 IN	CNAME	e7149.dscb.akamaiedge.net.
+e7149.dscb.akamaiedge.net. 20	IN	A	104.81.108.187
+
+;; Query time: 76 msec
+;; SERVER: 192.168.88.1#53(192.168.88.1) (UDP)
+;; WHEN: Sat Jun 03 05:15:39 EDT 2023
+;; MSG SIZE  rcvd: 130
+
+
+; <<>> DiG 9.18.12-1-Debian <<>> www.skagenwatch.co.uk
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 11752
+;; flags: qr rd ra; QUERY: 1, ANSWER: 3, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;www.skagenwatch.co.uk.		IN	A
+
+;; ANSWER SECTION:
+www.skagenwatch.co.uk.	3000	IN	CNAME	www.skagen.com.edgekey.net.
+www.skagen.com.edgekey.net. 3000 IN	CNAME	e7149.dscb.akamaiedge.net.
+e7149.dscb.akamaiedge.net. 20	IN	A	104.81.108.187
+
+;; Query time: 96 msec
+;; SERVER: 192.168.88.1#53(192.168.88.1) (UDP)
+;; WHEN: Sat Jun 03 05:15:39 EDT 2023
+;; MSG SIZE  rcvd: 131
+
+
+; <<>> DiG 9.18.12-1-Debian <<>> www.watchstation.co.uk
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 49275
+;; flags: qr rd ra; QUERY: 1, ANSWER: 4, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;www.watchstation.co.uk.		IN	A
+
+;; ANSWER SECTION:
+www.watchstation.co.uk.	3000	IN	CNAME	www.watchstation.co.uk.edgekey.net.
+www.watchstation.co.uk.edgekey.net. 3000 IN CNAME e27818.dsca.akamaiedge.net.
+e27818.dsca.akamaiedge.net. 20	IN	A	104.94.100.163
+e27818.dsca.akamaiedge.net. 20	IN	A	104.94.100.171
+
+;; Query time: 452 msec
+;; SERVER: 192.168.88.1#53(192.168.88.1) (UDP)
+;; WHEN: Sat Jun 03 05:15:39 EDT 2023
+;; MSG SIZE  rcvd: 157
+
+
+; <<>> DiG 9.18.12-1-Debian <<>> watchstation.com
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 10092
+;; flags: qr rd ra; QUERY: 1, ANSWER: 4, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;watchstation.com.		IN	A
+
+;; ANSWER SECTION:
+watchstation.com.	1800	IN	A	96.45.82.245
+watchstation.com.	1800	IN	A	96.45.82.85
+watchstation.com.	1800	IN	A	96.45.83.82
+watchstation.com.	1800	IN	A	96.45.83.218
+
+;; Query time: 44 msec
+;; SERVER: 192.168.88.1#53(192.168.88.1) (UDP)
+;; WHEN: Sat Jun 03 05:15:39 EDT 2023
+;; MSG SIZE  rcvd: 98
+
+
+; <<>> DiG 9.18.12-1-Debian <<>> zodiacwatches.com
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 27490
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;zodiacwatches.com.		IN	A
+
+;; ANSWER SECTION:
+zodiacwatches.com.	1800	IN	A	23.211.22.42
+
+;; Query time: 84 msec
+;; SERVER: 192.168.88.1#53(192.168.88.1) (UDP)
+;; WHEN: Sat Jun 03 05:15:40 EDT 2023
+;; MSG SIZE  rcvd: 51
+
+
+; <<>> DiG 9.18.12-1-Debian <<>> dev.shopkatchin.com
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 59722
+;; flags: qr rd ra; QUERY: 1, ANSWER: 5, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;dev.shopkatchin.com.		IN	A
+
+;; ANSWER SECTION:
+dev.shopkatchin.com.	1800	IN	CNAME	shopkatchin.com.edgekey.net.
+shopkatchin.com.edgekey.net. 3000 IN	CNAME	e91087.dsca.akamaiedge.net.
+e91087.dsca.akamaiedge.net. 20	IN	A	104.94.100.162
+e91087.dsca.akamaiedge.net. 20	IN	A	104.94.100.168
+e91087.dsca.akamaiedge.net. 20	IN	A	104.94.100.170
+
+;; Query time: 256 msec
+;; SERVER: 192.168.88.1#53(192.168.88.1) (UDP)
+;; WHEN: Sat Jun 03 05:15:40 EDT 2023
+;; MSG SIZE  rcvd: 163
+
+
+; <<>> DiG 9.18.12-1-Debian <<>> m.skagen.de
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 28988
+;; flags: qr rd ra; QUERY: 1, ANSWER: 3, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;m.skagen.de.			IN	A
+
+;; ANSWER SECTION:
+m.skagen.de.		600	IN	CNAME	www.skagen.com.edgekey.net.
+www.skagen.com.edgekey.net. 2999 IN	CNAME	e7149.dscb.akamaiedge.net.
+e7149.dscb.akamaiedge.net. 19	IN	A	104.81.108.187
+
+;; Query time: 80 msec
+;; SERVER: 192.168.88.1#53(192.168.88.1) (UDP)
+;; WHEN: Sat Jun 03 05:15:40 EDT 2023
+;; MSG SIZE  rcvd: 121
+
+
+; <<>> DiG 9.18.12-1-Debian <<>> prod.shopkatchin.com
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 12895
+;; flags: qr rd ra; QUERY: 1, ANSWER: 5, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;prod.shopkatchin.com.		IN	A
+
+;; ANSWER SECTION:
+prod.shopkatchin.com.	3000	IN	CNAME	shopkatchin.com.edgekey.net.
+shopkatchin.com.edgekey.net. 3000 IN	CNAME	e91087.dsca.akamaiedge.net.
+e91087.dsca.akamaiedge.net. 20	IN	A	104.94.100.162
+e91087.dsca.akamaiedge.net. 20	IN	A	104.94.100.168
+e91087.dsca.akamaiedge.net. 20	IN	A	104.94.100.170
+
+;; Query time: 80 msec
+;; SERVER: 192.168.88.1#53(192.168.88.1) (UDP)
+;; WHEN: Sat Jun 03 05:15:40 EDT 2023
+;; MSG SIZE  rcvd: 164
+
+
+; <<>> DiG 9.18.12-1-Debian <<>> www.111watches.com
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 41498
+;; flags: qr rd ra; QUERY: 1, ANSWER: 4, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;www.111watches.com.		IN	A
+
+;; ANSWER SECTION:
+www.111watches.com.	1800	IN	CNAME	www.111watches.com.edgekey.net.
+www.111watches.com.edgekey.net.	3000 IN	CNAME	e27818.dsca.akamaiedge.net.
+e27818.dsca.akamaiedge.net. 19	IN	A	104.94.100.171
+e27818.dsca.akamaiedge.net. 19	IN	A	104.94.100.163
+
+;; Query time: 200 msec
+;; SERVER: 192.168.88.1#53(192.168.88.1) (UDP)
+;; WHEN: Sat Jun 03 05:15:40 EDT 2023
+;; MSG SIZE  rcvd: 149
+
+
+; <<>> DiG 9.18.12-1-Debian <<>> www.fossil.be
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 52359
+;; flags: qr rd ra; QUERY: 1, ANSWER: 3, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;www.fossil.be.			IN	A
+
+;; ANSWER SECTION:
+www.fossil.be.		3000	IN	CNAME	ev.www.fossil.com.edgekey.net.
+ev.www.fossil.com.edgekey.net. 2412 IN	CNAME	e6253.dsca.akamaiedge.net.
+e6253.dsca.akamaiedge.net. 15	IN	A	104.81.217.50
+
+;; Query time: 84 msec
+;; SERVER: 192.168.88.1#53(192.168.88.1) (UDP)
+;; WHEN: Sat Jun 03 05:15:40 EDT 2023
+;; MSG SIZE  rcvd: 126
+
+
+; <<>> DiG 9.18.12-1-Debian <<>> www.fossilfoundation.org
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 9899
+;; flags: qr rd ra; QUERY: 1, ANSWER: 4, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;www.fossilfoundation.org.	IN	A
+
+;; ANSWER SECTION:
+www.fossilfoundation.org. 299	IN	CNAME	www.fossilfoundation.org.edgekey.net.
+www.fossilfoundation.org.edgekey.net. 3000 IN CNAME e27818.dsca.akamaiedge.net.
+e27818.dsca.akamaiedge.net. 18	IN	A	104.94.100.163
+e27818.dsca.akamaiedge.net. 18	IN	A	104.94.100.171
+
+;; Query time: 284 msec
+;; SERVER: 192.168.88.1#53(192.168.88.1) (UDP)
+;; WHEN: Sat Jun 03 05:15:41 EDT 2023
+;; MSG SIZE  rcvd: 161
+
+
+; <<>> DiG 9.18.12-1-Debian <<>> www.skagen-japan.com
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 44715
+;; flags: qr rd ra; QUERY: 1, ANSWER: 4, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;www.skagen-japan.com.		IN	A
+
+;; ANSWER SECTION:
+www.skagen-japan.com.	600	IN	CNAME	www.skagen-japan.com.edgekey.net.
+www.skagen-japan.com.edgekey.net. 3000 IN CNAME	e27818.dsca.akamaiedge.net.
+e27818.dsca.akamaiedge.net. 18	IN	A	104.94.100.171
+e27818.dsca.akamaiedge.net. 18	IN	A	104.94.100.163
+
+;; Query time: 156 msec
+;; SERVER: 192.168.88.1#53(192.168.88.1) (UDP)
+;; WHEN: Sat Jun 03 05:15:41 EDT 2023
+;; MSG SIZE  rcvd: 153
+
+
+; <<>> DiG 9.18.12-1-Debian <<>> www.watchstation.de
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 29649
+;; flags: qr rd ra; QUERY: 1, ANSWER: 4, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;www.watchstation.de.		IN	A
+
+;; ANSWER SECTION:
+www.watchstation.de.	60	IN	CNAME	www.watchstation.de.edgekey.net.
+www.watchstation.de.edgekey.net. 3000 IN CNAME	e27818.dsca.akamaiedge.net.
+e27818.dsca.akamaiedge.net. 18	IN	A	104.94.100.163
+e27818.dsca.akamaiedge.net. 18	IN	A	104.94.100.171
+
+;; Query time: 244 msec
+;; SERVER: 192.168.88.1#53(192.168.88.1) (UDP)
+;; WHEN: Sat Jun 03 05:15:41 EDT 2023
+;; MSG SIZE  rcvd: 151
+
+
+; <<>> DiG 9.18.12-1-Debian <<>> www.watchstation.fr
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 33146
+;; flags: qr rd ra; QUERY: 1, ANSWER: 4, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;www.watchstation.fr.		IN	A
+
+;; ANSWER SECTION:
+www.watchstation.fr.	60	IN	CNAME	www.watchstation.fr.edgekey.net.
+www.watchstation.fr.edgekey.net. 3000 IN CNAME	e27818.dsca.akamaiedge.net.
+e27818.dsca.akamaiedge.net. 18	IN	A	104.94.100.171
+e27818.dsca.akamaiedge.net. 18	IN	A	104.94.100.163
+
+;; Query time: 240 msec
+;; SERVER: 192.168.88.1#53(192.168.88.1) (UDP)
+;; WHEN: Sat Jun 03 05:15:41 EDT 2023
+;; MSG SIZE  rcvd: 151
+
+
+; <<>> DiG 9.18.12-1-Debian <<>> www.fossil.co.id
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 32017
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;www.fossil.co.id.		IN	A
+
+;; ANSWER SECTION:
+www.fossil.co.id.	300	IN	CNAME	prod.magentocloud.map.fastly.net.
+prod.magentocloud.map.fastly.net. 300 IN A	146.75.117.124
+
+;; Query time: 344 msec
+;; SERVER: 192.168.88.1#53(192.168.88.1) (UDP)
+;; WHEN: Sat Jun 03 05:15:42 EDT 2023
+;; MSG SIZE  rcvd: 96
+
+
+; <<>> DiG 9.18.12-1-Debian <<>> fossilcare.com
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 54499
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;fossilcare.com.			IN	A
+
+;; ANSWER SECTION:
+fossilcare.com.		1800	IN	A	34.111.87.148
+
+;; Query time: 84 msec
+;; SERVER: 192.168.88.1#53(192.168.88.1) (UDP)
+;; WHEN: Sat Jun 03 05:15:42 EDT 2023
+;; MSG SIZE  rcvd: 48
+
+
+; <<>> DiG 9.18.12-1-Debian <<>> fossilcrm.com
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 18135
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;fossilcrm.com.			IN	A
+
+;; ANSWER SECTION:
+fossilcrm.com.		3000	IN	A	34.117.201.15
+
+;; Query time: 80 msec
+;; SERVER: 192.168.88.1#53(192.168.88.1) (UDP)
+;; WHEN: Sat Jun 03 05:15:42 EDT 2023
+;; MSG SIZE  rcvd: 47
+
+
+; <<>> DiG 9.18.12-1-Debian <<>> fossilgroup.com
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 53356
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;fossilgroup.com.		IN	A
+
+;; ANSWER SECTION:
+fossilgroup.com.	300	IN	A	34.110.128.200
+
+;; Query time: 76 msec
+;; SERVER: 192.168.88.1#53(192.168.88.1) (UDP)
+;; WHEN: Sat Jun 03 05:15:42 EDT 2023
+;; MSG SIZE  rcvd: 49
+
+
+; <<>> DiG 9.18.12-1-Debian <<>> cdgfossil.com
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 21800
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;cdgfossil.com.			IN	A
+
+;; Query time: 88 msec
+;; SERVER: 192.168.88.1#53(192.168.88.1) (UDP)
+;; WHEN: Sat Jun 03 05:15:42 EDT 2023
+;; MSG SIZE  rcvd: 31
+
+
+; <<>> DiG 9.18.12-1-Debian <<>> fossil.com.vn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 33276
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;fossil.com.vn.			IN	A
+
+;; ANSWER SECTION:
+fossil.com.vn.		1800	IN	A	103.154.102.36
+
+;; Query time: 252 msec
+;; SERVER: 192.168.88.1#53(192.168.88.1) (UDP)
+;; WHEN: Sat Jun 03 05:15:42 EDT 2023
+;; MSG SIZE  rcvd: 47
+
+
+; <<>> DiG 9.18.12-1-Debian <<>> linkplatforms.com
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 58541
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;linkplatforms.com.		IN	A
+
+;; Query time: 52 msec
+;; SERVER: 192.168.88.1#53(192.168.88.1) (UDP)
+;; WHEN: Sat Jun 03 05:15:43 EDT 2023
+;; MSG SIZE  rcvd: 35
+
+
+; <<>> DiG 9.18.12-1-Debian <<>> cdgcitizen.com
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 13460
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;cdgcitizen.com.			IN	A
+
+;; Query time: 92 msec
+;; SERVER: 192.168.88.1#53(192.168.88.1) (UDP)
+;; WHEN: Sat Jun 03 05:15:43 EDT 2023
+;; MSG SIZE  rcvd: 32
+
+
+; <<>> DiG 9.18.12-1-Debian <<>> fossil.vn
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 16763
+;; flags: qr rd ra; QUERY: 1, ANSWER: 4, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;fossil.vn.			IN	A
+
+;; ANSWER SECTION:
+fossil.vn.		1800	IN	A	96.45.82.245
+fossil.vn.		1800	IN	A	96.45.83.82
+fossil.vn.		1800	IN	A	96.45.83.218
+fossil.vn.		1800	IN	A	96.45.82.85
+
+;; Query time: 260 msec
+;; SERVER: 192.168.88.1#53(192.168.88.1) (UDP)
+;; WHEN: Sat Jun 03 05:15:43 EDT 2023
+;; MSG SIZE  rcvd: 91
+
+
+; <<>> DiG 9.18.12-1-Debian <<>> smartwatchstations.com
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 28134
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;smartwatchstations.com.		IN	A
+
+;; Query time: 76 msec
+;; SERVER: 192.168.88.1#53(192.168.88.1) (UDP)
+;; WHEN: Sat Jun 03 05:15:43 EDT 2023
+;; MSG SIZE  rcvd: 40
+
+
+; <<>> DiG 9.18.12-1-Debian <<>> misfitwearables.com
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 5403
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;misfitwearables.com.		IN	A
+
+;; Query time: 88 msec
+;; SERVER: 192.168.88.1#53(192.168.88.1) (UDP)
+;; WHEN: Sat Jun 03 05:15:43 EDT 2023
+;; MSG SIZE  rcvd: 37
+
